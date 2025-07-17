@@ -1,2 +1,2 @@
-SELECT id, "name", run_on
-FROM public.migrations;
+ALTER TABLE trees ADD PRIMARY KEY (id);
+ALTER TABLE planter ADD PRIMARY KEY (id);
