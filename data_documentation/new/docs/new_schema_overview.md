@@ -5,43 +5,20 @@ This document provides an overview of the new PostgreSQL schema for the Treetrac
 ## Tables
 
 
+
 ### Key Tables
 
 1. **tree** – Main record for each tree.
 2. **capture** – Observations/photos of trees.
 3. **grower_account** – Information about tree planters.
 4. **tag** – Tag definitions.
-5. **capture_tag** – Join table linking captures and tags (many-to-many).
-6. **tree_tag** – Join table linking trees and tags (many-to-many).
-7. **token** – Represents digital/tree ownership.
-8. **transaction** – Token movement history.
-9. **stakeholder** – Organizations & people.
-10. **stakeholder_relation** – Join table for org/person hierarchies (many-to-many).
-11. **session** – Data collection sessions.
-12. **device_configuration** – Device/app metadata.
-13. **region** – Geographic regions.
-14. **collection** – Geographic collections.
-15. **wallet** – Digital wallet records.
-16. **wallet_registration** – Wallet registration records.
-17. **wallet_trust** – Trust relationships between wallets.
-18. **wallet_trust_log** – Wallet trust log entries.
-19. **grower_account_org** – Links grower accounts and organizations (many-to-many).
-20. **grower_account_image** – Images for grower accounts.
-21. **app_config** – Application configuration.
-22. **app_installation** – App installation records.
-23. **raw_capture** – Raw capture data.
-24. **session_segment** – Segments of sessions.
-25. **spatial_ref_sys** – PostGIS spatial reference system.
-26. **domain_event** and partitions – Domain event log (partitioned).
-27. **tree_denormalized** – Reporting-friendly tree data.
-28. **capture_denormalized** – Reporting-friendly capture data.
-29. **track** – Tracking data.
-30. **transfer** – Transfer records.
-31. **transfer_audit** – Transfer audit logs.
-32. **wallet_event** – Wallet event logs.
-33. **api_key** – API key management.
-34. **migrations** – Database migration tracking.
-
+5. **stakeholder** – Organizations & people.
+6. **session** – Data collection sessions.
+7. **region** – Geographic regions.
+8. **collection** – Geographic collections.
+9. **wallet** – Digital wallet records.
+10. **token** – Represents digital/tree ownership.
+11. **transaction** – Token movement history.
 
 ### All Tables
 
