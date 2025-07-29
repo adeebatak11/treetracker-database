@@ -33,32 +33,26 @@ This document aims to deepen the level of detail about the legacy schema to supp
 10. **devices** – Device metadata.
 11. **domain_event** – Domain event log (partitioned).
 12. **domain_event_handled** – Handled domain events (partitioned).
-13. **domain_event_handled_2021** – Handled domain events for 2021.
-14. **domain_event_handled_2022** – Handled domain events for 2022.
-15. **domain_event_handled_2023** – Handled domain events for 2023.
-16. **domain_event_raised** – Raised domain events.
-17. **domain_event_received** – Received domain events.
-18. **domain_event_sent** – Sent domain events (partitioned).
-19. **domain_event_sent_2021** – Sent domain events for 2021.
-20. **domain_event_sent_2022** – Sent domain events for 2022.
-21. **domain_event_sent_2023** – Sent domain events for 2023.
-22. **donors** – Donor information.
-23. **entity** – Entity records for relationships.
-24. **entity_manager** – Entity manager status.
-25. **entity_relationship** – Relationships between entities.
-26. **entity_role** – Entity role definitions.
-27. **locations** – Tree planting locations.
-28. **migrations** – Database migration tracking.
-29. **note_trees** – Links notes and trees (many-to-many).
-30. **notes** – User-generated notes.
-31. **organizations** – Organization names.
-32. **payment** – Payment records.
-33. **pending_update** – Pending updates for trees/locations.
-34. **photo_trees** – Links photos and trees (many-to-many).
-35. **photos** – Tree photos and metadata.
-36. **planter** – Planter user records.
-37. **planter_registrations** – Planter registration records.
-38. **region** – Geographic regions.
+13. **domain_event_sent** – Sent domain events (partitioned).
+14. **domain_event_raised** – Raised domain events.
+15. **domain_event_received** – Received domain events.
+16. **donors** – Donor information.
+17. **entity** – Entity records for relationships.
+18. **entity_manager** – Entity manager status.
+19. **entity_relationship** – Relationships between entities.
+20. **entity_role** – Entity role definitions.
+21. **locations** – Tree planting locations.
+22. **migrations** – Database migration tracking.
+23. **note_trees** – Links notes and trees (many-to-many).
+24. **notes** – User-generated notes.
+25. **organizations** – Organization names.
+26. **payment** – Payment records.
+27. **pending_update** – Pending updates for trees/locations.
+28. **photo_trees** – Links photos and trees (many-to-many).
+29. **photos** – Tree photos and metadata.
+30. **planter** – Planter user records.
+31. **planter_registrations** – Planter registration records.
+32. **region** – Geographic regions.
 39. **region_type** – Region type definitions.
 40. **region_zoom** – Region zoom levels.
 41. **settings** – User/tree settings.
