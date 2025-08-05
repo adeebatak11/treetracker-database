@@ -2,12 +2,6 @@
 
 Greenstand is currently undertaking a comprehensive domain migration to transition from a legacy monolithic architecture centered around the `trees` table to a service-oriented architecture with domain boundaries and cohesive language.
 
-## Schema Evolution Overview
-
-![Domain Migration Schema Change Overview](domain_migration_delta_ERD.svg)
-
-The ERD above illustrates the transformation from legacy schema (red tables) to new schema (green tables), with denormalized tables (yellow) for reporting purposes.
-
 ## Key Migration Principles
 
 ### 1. Separation of Captures and Trees
@@ -38,3 +32,9 @@ The ERD above illustrates the transformation from legacy schema (red tables) to 
 - `planteridentifier` → `ground_username`
 - Mixed tree/capture concepts → Separated `capture` and `tree`
 - Implicit tokens → Explicit `impact_token` with clear relationships.
+
+## Schema Evolution Overview
+
+![Domain Migration Schema Change Overview](domain_migration_delta_ERD.svg)
+
+The ERD above illustrates the transformation from legacy schema (red tables) to new schema (green tables), with denormalized tables (yellow) for reporting purposes.
