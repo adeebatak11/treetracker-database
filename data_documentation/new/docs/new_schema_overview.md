@@ -1,3 +1,5 @@
+
+
 # New Schema Overview
 
 This document provides an overview of the new PostgreSQL schema for the Treetracker system. It summarizes key tables, their relationships, and notable features to support migration and development efforts.
