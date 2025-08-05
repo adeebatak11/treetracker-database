@@ -53,21 +53,20 @@ This document aims to deepen the level of detail about the legacy schema to supp
 30. **planter** – Planter user records.
 31. **planter_registrations** – Planter registration records.
 32. **region** – Geographic regions.
-39. **region_type** – Region type definitions.
-40. **region_zoom** – Region zoom levels.
-41. **settings** – User/tree settings.
-42. **spatial_ref_sys** – PostGIS spatial reference system.
-43. **tag** – Tag definitions.
-44. **token** – User authentication tokens.
-45. **transaction** – Transaction records.
-46. **transfer** – Transfer records.
-47. **tree_attributes** – Tree attribute metadata.
-48. **tree_name** – Tree name records.
-49. **tree_region** – Links trees to regions.
-50. **tree_species** – Tree species reference.
-51. **tree_tag** – Tree tag assignments.
-52. **trees** – Tree records.
-53. **users** – User accounts.
+33. **region_type** – Region type definitions.
+34. **region_zoom** – Region zoom levels.
+35. **settings** – User/tree settings.
+36. **spatial_ref_sys** – PostGIS spatial reference system.
+37. **tag** – Tag definitions.
+38. **token** – User authentication tokens.
+39. **transaction** – Transaction records.
+40. **transfer** – Transfer records.
+41. **tree_attributes** – Tree attribute metadata.
+42. **tree_name** – Tree name records.
+43. **tree_region** – Links trees to regions.
+44. **tree_species** – Tree species reference.
+45. **tree_tag** – Tree tag assignments.
+46. **trees** – Tree records.
 
 
 ## Materialized Views
